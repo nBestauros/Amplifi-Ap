@@ -62,6 +62,3 @@ typings/
 
 # react build output
 build/
-
-# package-lock
-package-lock.json
