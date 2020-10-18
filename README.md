@@ -12,19 +12,19 @@ Allows fans to keep up with the latest artists' live streams, merch drops, etc.
 3. Run npm run build, followed by npm start
 4. A browser page should open with the app running.
 
-## How I built it
+## How we built it
 
 Built a front-end react app with a back-end in node.js, hosted on digitalocean.
 
-## Challenges I ran into
+## Challenges we ran into
 
 We initially tried to use azure for hosting, spent several hours on it, and were forced to pivot to digitalocean.
 
-## Accomplishments that I'm proud of
+## Accomplishments that we're proud of
 
 Building a slick, beautiful app to connect musicians to their fans.
 
-## What I learned
+## What we learned
 
 Hackathons require great discipline and determination to succeed. Going for 24 hours straight and doing work that normally takes 3 weeks of regular dev time is an eye-opening experience.
 
