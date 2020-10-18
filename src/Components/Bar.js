@@ -5,7 +5,9 @@ class Bar extends React.Component {
     render() {
         return (
             <div className="Bar">
-                <div className="Bar-Element">
+                <div className="Bar-Element" onClick={
+                    () => { this.props.clearSelection(); }
+                }>
                     Home
                 </div>
             </div>
