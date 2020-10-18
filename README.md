@@ -6,6 +6,12 @@ We were inspired by connecting musicians to their fans during this pandemic - br
 
 Allows fans to keep up with the latest artists' live streams, merch drops, etc.
 
+## Running the Code
+1. Clone the Git repository
+2. Inside the created folder, run npm install
+3. Run npm run build, followed by npm start
+4. A browser page should open with the app running.
+
 ## How I built it
 
 Built a front-end react app with a back-end in node.js, hosted on digitalocean.
