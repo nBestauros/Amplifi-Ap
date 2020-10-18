@@ -24,9 +24,9 @@ class App extends React.Component {
   render() {
       return (
         <div className="App">
-          <Bar setClearSelection={this.setClearSelection.bind(this)}/>
-          <Header setClearSelection={this.setClearSelection.bind(this)}/>
-          <Content />
+          <Bar clearSelection={this.clearSelection.bind(this)}/>
+          <Header clearSelection={this.clearSelection.bind(this)}/>
+          <Content setClearSelection={this.setClearSelection.bind(this)}/>
       </div>
       );
   }

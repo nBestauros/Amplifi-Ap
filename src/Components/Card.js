@@ -18,6 +18,8 @@ class Card extends React.Component {
             // }).catch((err) => {
             //     console.log(err);
             // });
+            /// AAAAAAAAAAAAAAAAAAAA this doesnt work for some reason
+            
         }
     }
 

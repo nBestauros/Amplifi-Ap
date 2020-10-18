@@ -6,7 +6,9 @@ class Header extends React.Component {
     render() {
         return (
             <div className="Header">
-                <div className="Logo-container">
+                <div className="Logo-container" onClick={
+                    () => { this.props.clearSelection(); }
+                }>
                     <img className="Header-logo" src={logo}/>
                 </div>
                 <div className="Name-container">Amplifi</div>
