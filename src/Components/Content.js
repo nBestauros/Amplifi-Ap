@@ -11,7 +11,11 @@ class Content extends React.Component {
     }
 
     componentDidMount() {
-
+        this.props.setClearSelection(
+            () => {
+                this.profileSelected(undefined);
+            }
+        );
     }
 
     profileSelected(profileName) {
