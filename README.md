@@ -1,20 +1,27 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+## Inspiration
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+We were inspired by connecting musicians to their fans during this pandemic - bringing the scene out to everybody, everywhere.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## What it does
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+Allows fans to keep up with the latest artists' live streams, merch drops, etc.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## How I built it
+
+Built a front-end react app with a back-end in node.js, hosted on digitalocean.
+
+## Challenges I ran into
+
+We initially tried to use azure for hosting, spent several hours on it, and were forced to pivot to digitalocean.
+
+## Accomplishments that I'm proud of
+
+Building a slick, beautiful app to connect musicians to their fans.
+
+## What I learned
+
+Hackathons require great discipline and determination to succeed. Going for 24 hours straight and doing work that normally takes 3 weeks of regular dev time is an eye-opening experience.
+
+## Where will Amplifi go next
+
+We plan to scale up and fully implement our API on a more powerful service such as Azure, where our platform can realize its full potential.
