@@ -1,38 +1,151 @@
+
+html {
+  background-color: #202225;
+}
+
+
+/* ================ App ================ */
 .App {
+  width: 100%;
+  height: 100%;
+}
+
+/* ================ Content ================ */
+.Content {
+  width: 90%;
+  height: 100%;
+  margin-left: 10%;
+  margin-top: 90px;
+}
+
+/* ================ Header ================ */
+.Header {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: #202225;
+  box-shadow: 0 -11px 28px #000000;
+}
+
+.Header-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.Logo-container {
+  float: left;
+}
+
+.Name-container {
+  float: left;
+  line-height: 70px;
+  color: white;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+/* ================ Bar ================ */
+.Bar {
+  width: 10%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 70px;
+  background-color: #202225;
+  border-right-color: #1b1b1b;
+  border-right-width: 2px;
+  border-right-style: solid;
+}
+
+.Bar-Element {
+  width: 100%;
+  height: 50px;
+  background-color: #1A1B1D;
+  margin-top: 10px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  line-height: 50px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* ================ Card ================ */
+.Card {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Card-header {
+  width: 100%;
+  height: 40px;
+}
+
+.Card-content {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #1a1b1d;
+  border-width: 1px;
+  border-color: #1a1b1d;
+  border-style: inset;
+}
+
+.Spotify-card {
+  border-color: #007904;
+}
+
+.Soundcloud-card {
+  border-color: #793b00;
+}
+
+.Customink-card {
+  border-color: #790000;
+}
+
+.Bandcamp-card {
+  border-color: #020079;
+}
+
+.Twitter-card {
+  border-color: #003979;
+}
+
+.Delish-card {
+  border-color: #5c636b;
+}
+
+.Header-circ {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #FB5A21;
+  float: left;
+  background-image: url("./Back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: 500;
+}
+
+.Header-text {
+  height: 40px;
+  line-height: 40px;
+  margin-left: 10px;
+  float: left;
+}
+
+.Card-content-header {
+  margin-left: 15px;
+  color: #626974;
+}
+
+.Card-content-link {
+  margin-left: 15px;
+  color: #626974;
+  font-size: 10px;
 }
