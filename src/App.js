@@ -12,20 +12,20 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      clearSelection: () => {}
     }
-    this.clearSelection = () => {};
+    
   }
 
   setClearSelection(func) {
-    this.clearSelection = func;
+    this.setState({clearSelection: func})
   }
 
   render() {
       return (
         <div className="App">
-          <Bar clearSelection={this.clearSelection.bind(this)}/>
-          <Header clearSelection={this.clearSelection.bind(this)}/>
+          <Bar clearSelection={this.state.clearSelection}/>
+          <Header clearSelection={this.state.clearSelection}/>
           <Content setClearSelection={this.setClearSelection.bind(this)}/>
       </div>
       );
